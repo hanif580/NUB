@@ -113,7 +113,7 @@ $send=mysqli_query($con,$sql);
         if($flag==0)
         {
 
-        	 $output="Sorry I have no knowledge of ".$msgg." yet. Type only one keyword without space instead of full sentence. For Emergency Help Call: 01757687942 Or http://ruet.ac.bd";
+        	 $output="Sorry I have no knowledge of ".$msgg." yet. Type only one keyword without space instead of full sentence. For Emergency Help Call: 01757687942 Or http://nub.ac.bd";
         	 $result = make_links_clickable($output);
         	 echo "$result";
           	 
