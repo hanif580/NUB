@@ -135,7 +135,7 @@ $(document).ready(function(){
 
           if(i==1)
           {
-              $('#div').html("<div class=\"ou\"> Hello Guest. Welcome To Nub Chat</div><br>");
+              $('#div').html("<div class=\"ou\"> Hello. Welcome To Nub Chat</div><br>");
 
           }
           
@@ -258,7 +258,8 @@ function submitForm(oFormElement)
 
 
 
-</div></div>
+</div>
+</div>
 
 </div>
 
