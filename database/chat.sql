@@ -39,26 +39,23 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`input`, `output`, `time`, `id`, `title`) VALUES
-('admission', 'How To Apply\r\n\r\nhttp://www.nub.ac.bd/articles/How%20to%20Apply/33\r\n\r\nUndergraduate Examination\r\n\r\nhttp://www.ruet.ac.bd/articles/Undergraduate%20Admission/63\r\n\r\nPostgraduate Admission\r\n\r\nhttp://www.ruet.ac.bd/articles/Postgraduate%20Studies/34\r\n\r\nAdmission Schedule\r\n\r\nhttp://www.ruet.ac.bd/articles/Admission%20Schedule/238\r\n\r\nInternational Admission\r\n\r\nhttp://www.ruet.ac.bd/articles/International%20Student/241\r\n\r\nQuota\r\n\r\nhttp://www.ruet.ac.bd/articles/Quota/242\r\n', '2017-08-22 00:00:00', 0, 'Admission'),
+('admission', 'How To Apply\r\n\r\nhttps://nub.ac.bd/admission/uy4d8iaf/admission-information/33\r\n\r\nAdmission Information\r\n\r\nhttp://182.160.97.196:8088/admission/63\r\n\r\nOnline Application','2017-08-22 00:00:00', 0, 'Admission'),
 ('hi', 'Hello. How Can I Help You?', '2017-08-22 21:37:00', 1, NULL),
-('administration', 'Vice Chancellor\r\n\r\nhttp://www.nub.ac.bd/articles/Vice%20Chancellor/6\r\n\r\nUniversity Syncdicate\r\n\r\nhttp://www.ruet.ac.bd/articles/University%20Syndicate%20Member/8\r\n\r\nHead Of The Departments\r\n\r\nhttp://www.ruet.ac.bd/articles/Heads%20of%20Departments/15', '2017-08-23 00:00:00', 3, 'Administration'),
-('help', 'HelpLine: 01758985625 Or \r\n\r\nhttp://nub.ac.bd\r\n\r\n', '2017-08-23 12:15:57', 4, 'Help'),
-('notices', 'For Notice\r\n\r\nhttp://www.nub.ac.bd/archive/notices', '2017-08-23 18:22:07', 6, 'Notices'),
-('departments', 'There are 14 departments in NUB.<br>These Are: <br>\r\n\r\n1. EEE\r\nhttp://eee.ruet.ac.bd\r\n\r\n2. CSE\r\nhttp://cse.ruet.ac.bd\r\n\r\n3. ME\r\nhttp://me.ruet.ac.bd\r\n\r\n4. CE\r\nhttp://ce.ruet.ac.bd\r\n\r\n5. MTE\r\nhttp://mte.ruet.ac.bd\r\n\r\n6. ETE\r\nhttp://ete.ruet.ac.bd\r\n\r\n7. ECE\r\nhttp://ece.ruet.ac.bd\r\n\r\n8. IPE\r\nhttp://ipe.ruet.ac.bd\r\n\r\n9. GCE\r\nhttp://gce.ruet.ac.bd\r\n\r\n10. URP\r\nhttp://urp.ruet.ac.bd\r\n\r\n11. CFPE\r\nhttp://cfpe.ruet.ac.bd\r\n\r\n12. MSE\r\nhttp://mse.ruet.ac.bd\r\n\r\n13. BECM\r\nhttp://becm.ruet.ac.bd\r\n\r\n14. Architecture\r\nhttp://archi.ruet.ac.bd', '2017-08-23 18:40:01', 11, 'Departments'),
-('academics', 'Academic Council\r\nhttp://www.ruet.ac.bd/articles/Academic%20Council/10\r\n\r\nAcademic Calendar\r\nhttp://www.ruet.ac.bd/articles/Academic%20Calendar/225\r\n\r\nPrograms Offered\r\n\r\nhttp://www.ruet.ac.bd/articles/Programs%20Offered/32\r\n', '2017-08-23 19:31:03', 12, NULL),
-('facilities', 'Accomodation\r\n\r\nhttp://www.nub.ac.bd/articles/Accommodation/19\r\n\r\nLibrary\r\n\r\nhttp://www.ruet.ac.bd/articles/RUET%20Central%20Library/2\r\n\r\nTransport\r\n\r\nhttp://www.ruet.ac.bd/articles/Transportation/21\r\n\r\nMedical\r\n\r\nhttp://www.ruet.ac.bd/articles/Medical%20Centre/20\r\n\r\nPostal And Banking\r\n\r\nhttp://www.ruet.ac.bd/articles/Postal%20%26%20Banking/239\r\n\r\nComputer Centre\r\n\r\nhttp://ccc.ruet.ac.bd/\r\n', '2017-08-23 19:40:45', 14, 'Facilities'),
-('about', 'History\r\n\r\nhttp://www.ruet.ac.bd/articles/History/5\r\n\r\nMission And Vision\r\n\r\nhttp://www.ruet.ac.bd/articles/Mission%20and%20Vision%20of%20RUET/218\r\n\r\nCampus Details\r\n\r\nhttp://www.ruet.ac.bd/articles/Campus%20Details/219\r\n\r\nRUET Bulletin\r\n\r\nhttp://www.ruet.ac.bd/articles/RUET%20Bulletin/244\r\n\r\nCareer\r\n\r\nhttp://www.ruet.ac.bd/articles/Recruitment/247\r\n\r\n\r\n', '2017-08-23 19:47:11', 16, 'About RUET'),
-('map', 'Campus Map\r\n\r\nhttp://www.ruet.ac.bd/articles/University%20Map/235', '2017-08-23 19:48:04', 17, 'Campus Map'),
-('nub', 'NUB Website\r\n\r\nhttp://nub.ac.bd\r\n\r\nRUET MAP\r\n\r\nhttp://www.nub.ac.bd/articles/University%20Map/235\r\n\r\nRUET Radio\r\n\r\nhttp://radioruet.com\r\n\r\nRUET OJ\r\n\r\nhttp://ruetoj.appsplorer-bd.com', '2017-08-23 19:53:21', 18, 'RUET'),
-('researchs', 'Research Overview\r\n\r\nhttp://www.nub.ac.bd/articles/Research%20Overview/230\r\n\r\nResearch Mission\r\n\r\nhttp://www.ruet.ac.bd/articles/Research%20Mission/231\r\n\r\nResearch Project\r\n\r\nhttp://www.ruet.ac.bd/articles/Research%20Project/232\r\n\r\nResearch Institute\r\n\r\nhttp://www.ruet.ac.bd/articles/Research%20Institutes/233\r\n\r\nCollaboration\r\n\r\nhttp://www.ruet.ac.bd/articles/International%20Collaboration/234\r\n\r\nResearch Ethics\r\n\r\nhttp://www.ruet.ac.bd/articles/Research%20Ethics/245', '2017-08-23 19:57:50', 19, 'Research'),
+('administration', 'Board-of-Trustees\r\n\r\nhttps://nub.ac.bd/management/I5wanuwf/board-of-trustees/6\r\n\r\nUniversity Syncdicate\r\n\r\nhttps://nub.ac.bd/management/hp1i5wqc/syndicate/8\r\n\r\nAcademic-Council\r\n\r\nhttps://nub.ac.bd/management/yikf9x1r/academic-council', '2017-08-23 00:00:00', 3, 'Administration'),
+('help', 'HelpLine: 01755514661,01755514650 Or \r\n\r\nhttp://nub.ac.bd\r\n\r\n', '2017-08-23 12:15:57', 4, 'Help'),
+('notices', 'For Notice\r\n\r\nhttps://nub.ac.bd/nub/notice/', '2017-08-23 18:22:07', 6, 'Notices'),
+('academics', 'Academic\r\nhttps://nub.ac.bd/academic/t3gwthgw/academic-programs/10\r\n\r\nAcademic System\r\nhttps://nub.ac.bd/academic/aid3rqrn/academic-system\r\n\r\nAcademic Calendar\r\nhttps://nub.ac.bd/academic/n8fepmzd/academic-calendar','2017-08-23 19:31:03', 12, NULL),
+('facilities', 'Accomodation\r\n\r\nhttp://www.nub.ac.bd/articles/Accommodation/19\r\n\r\nLibrar\r\n\r\nhttps://nub.ac.bd/campus/yrr4getc/library', '2017-08-23 19:40:45', 14, 'Facilities'),
+('about', 'History\r\n\r\nhttps://nub.ac.bd/about/dj7mbril/about-nub-and-our-history/5\r\n\r\nMission And Vision\r\n\r\nhttps://nub.ac.bd/about/2vfdlwt5/vision-and-mission/218\r\n\r\nLearning Resources \r\n\r\nhttps://nub.ac.bd/campus/cxomg8qn/learning-resources','2017-08-23 19:47:11', 16, 'About RUET'),
+('IT', 'IT Department\r\n\r\nhttps://nub.ac.bd/nub/itdepartment', '2017-08-23 19:48:04', 17, 'IT Department'),
+('nub', 'NUB Website\r\n\r\nhttp://nub.ac.bd', '2017-08-23 19:53:21', 18, 'NUB'),
+('map', 'Location Map\r\n\r\nhttps://nub.ac.bd/contact', '2017-08-23 19:53:21', 20, 'Map'),
+('researchs', 'Research Overview\r\n\r\nhttps://nub.ac.bd/nub/journals', '2017-08-23 19:57:50', 19, 'Research'),
 ('thanks', 'You are most welcome.', '2017-08-23 20:52:07', 21, NULL),
-('cse', 'NUB CSE \r\n\r\nhttp://cse.nub.ac.bd', '2017-08-23 21:01:16', 22, 'CSE'),
 ('ok', 'Ok', '2017-08-23 22:32:23', 24, NULL),
 ('hey', 'Hello :-) ', '2017-08-24 00:21:01', 25, NULL),
 ('website', 'http://nub.ac.bd', '2017-08-25 20:05:43', 26, 'Website'),
 ('hello', 'Hi. How Can I Help You ?', '2017-08-27 12:24:55', 27, NULL),
-('facility', 'Accomodation\r\n\r\nhttp://www.nub.ac.bd/articles/Accommodation/19\r\n\r\nLibrary\r\n\r\nhttp://www.ruet.ac.bd/articles/RUET%20Central%20Library/2\r\n\r\nTransport\r\n\r\nhttp://www.ruet.ac.bd/articles/Transportation/21\r\n\r\nMedical\r\n\r\nhttp://www.ruet.ac.bd/articles/Medical%20Centre/20\r\n\r\nPostal And Banking\r\n\r\nhttp://www.ruet.ac.bd/articles/Postal%20%26%20Banking/239\r\n\r\nComputer Centre\r\n\r\nhttp://ccc.ruet.ac.bd/\r\n', '2017-08-27 19:10:40', 29, 'Facility'),
-('nub map', 'Campus Map\r\n\r\nhttp://www.nub.ac.bd/articles/University%20Map/235', '2017-08-27 19:46:36', 30, 'Ruet Map');
 
 --
 -- Indexes for dumped tables
